@@ -7,8 +7,8 @@ from datetime import datetime, timedelta, timezone
 # --- Configuration ---
 BASE_URL = "https://api.coinbase.com/api/v3/brokerage/market/products"
 PRODUCT_ID = "BTC-USD"
-START_DATE = datetime(2025, 11, 1, 0, 0, 0, tzinfo=timezone.utc) # UTC timezone
-END_DATE = datetime(2025, 12, 1, 0, 0, 0, tzinfo=timezone.utc)   # UTC timezone
+START_DATE = datetime(2026, 1, 1, 0, 0, 0, tzinfo=timezone.utc) # UTC timezone
+END_DATE = datetime(2026, 2, 1, 0, 0, 0, tzinfo=timezone.utc)   # UTC timezone
 
 # Format dates for filename (safe for filesystem)
 start_str = START_DATE.strftime("%Y%m%d_%H%M")
